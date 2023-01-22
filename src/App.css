@@ -1,0 +1,98 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  font-family: 'Nunito', sans-serif;
+  padding: 10px 30px 0 30px;
+  background-color: rgba(255, 255, 255, 0.774);
+}
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.18) 0px 2px 4px;
+}
+
+.header {
+  width: 91.2vw;
+  background: rgb(239, 255, 245);
+
+  background: linear-gradient(
+    0deg,
+    rgba(239, 255, 245, 1) 0%,
+    rgba(23, 126, 137, 1) 51%
+  );
+  padding: 10px 10px 2px 10px;
+  margin-top: 2px;
+  border-radius: 4px;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+
+.header > h2 {
+  padding: 10px 10px 0 10px;
+  margin: 0;
+}
+
+.header > p {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.memeImg {
+  max-width: 420px;
+  height: auto;
+  max-height: 600px;
+  border: 2px solid rgba(255, 255, 255, 0.586);
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.section {
+  display: flex;
+  flex-direction: column;
+  grid-template: 20px / 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 20px;
+}
+
+.text--section {
+  display: grid;
+  justify-content: space-evenly;
+  gap: 17px;
+}
+
+.text {
+  width: 420px;
+  height: 24px;
+  text-align: center;
+  border-radius: 5px;
+  border: 1px solid #d5d4d8;
+  text-indent: 5px;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1rem;
+}
+
+h4 {
+  font-size: 2rem;
+  margin: 0;
+  padding: 10px;
+}
+
+.button {
+  font-size: 0.9rem;
+  background: #cf5c36;
+  transition: background-color 1s ease-out 100ms;
+  border-radius: 3px;
+  color: #fff;
+  margin: 0.5em 1em;
+  padding: 0.5em 1.8em;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #38369a;
+}
